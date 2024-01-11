@@ -1,0 +1,49 @@
+h1{
+    font-size: 2.5rem;
+}
+.details{
+    width: 70%;
+    margin: auto auto;
+    background: #FFFFFF;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: default;
+}
+.basicInfo{
+    display: grid;
+    grid-template-columns: 40% 50%;
+    gap:10%;
+    width: 90%;
+    margin: auto auto;
+    
+}
+.info{
+    margin-top: 28px;
+}
+.basicInfo img{
+    width: 100%;
+    margin-right: 0;
+    height: 400px;
+    
+}
+.basicInfo h2{
+    text-align: left;
+    margin-bottom: 5px;
+}
+.basicInfo ul{
+    margin: 0;
+    margin-bottom:15px ;
+    list-style-type: none;
+    text-align: left;
+    padding: 0 0;;
+}
+.basicInfo ul li{
+    font-weight: 400;
+    padding-top:10px;
+    padding-bottom:1px;
+}

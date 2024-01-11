@@ -1,0 +1,8 @@
+Version: "3.8"
+services:
+  xcel: ./src
+  container_name: xcel
+  ports:
+    - '3000:3000'
+  stdin_open: true
+  tty: true

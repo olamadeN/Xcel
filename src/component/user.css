@@ -1,0 +1,32 @@
+.displayGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    width: 80%;
+    margin: auto auto;
+}
+.snipet{
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 5%;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+.displayGrid img{
+    width:50%;
+    margin-bottom: -15px;
+}
+.snipName{
+    font-size: 1.25rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+.snipName:hover{
+    font-size: 1.28rem;
+    transition-duration: 100ms;
+}
+.snipEmail{
+    margin-top: -15px;
+    padding: 0;
+    font-weight: 400;
+    cursor: default;
+}
